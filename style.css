@@ -1,0 +1,71 @@
+.portfolio{
+    padding: 0px;
+    margin: 10px;
+    background-color: aquamarine;
+    background: linear-gradient(to right, #7fffd4, pink);
+
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    justify-items:center;
+    position:fixed;
+    margin-top: 0px;
+    z-index: 10000px;
+    position: fixed;
+   
+}
+nav ul{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    justify-items: normal;
+    gap: 80px;
+}
+
+.picture{
+    display:flex;
+    width: 350px;
+    height: 500px;
+    float: right;
+    margin-top: 140px;
+    margin-right: 140px;
+    margin-bottom: 140px;
+    border-radius: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: right;
+}
+.about{
+    border-width: 10px;
+    border-style:initial;
+    border-color: blueviolet;
+    text-align: center;
+    margin:300px;
+    font-size: 60px;
+    border-radius: 10px;
+}
+.name{
+    margin-top: 60px;
+}
+span{
+    color: blue;
+}
+button{
+    height:50px;
+    border-radius: 15px;
+    background-color: rgb(15, 119, 211);
+}
+.contact{
+    text-align: center;
+    border-width: 50px;
+    margin: 280px;
+}
+.list{
+    margin-top: 5px;
+}
